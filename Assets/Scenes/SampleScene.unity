@@ -306,6 +306,7 @@ GameObject:
   - component: {fileID: 224601266}
   - component: {fileID: 224601265}
   - component: {fileID: 224601264}
+  - component: {fileID: 224601263}
   m_Layer: 0
   m_Name: Red
   m_TagString: Untagged
@@ -313,6 +314,25 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &224601263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 224601262}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c018e9401206b374d8c4719fc4d1f4ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _targetLocation: {x: 2.9, y: -1.51, z: 7.525111}
+  _moveDuration: 0.5
+  _moveEase: 1
+  _targetColor: {r: 0, g: 0, b: 0, a: 0}
+  _scaleMultiplier: 3
+  _colorChangeDuration: 1
+  _doTweenType: 2
 --- !u!135 &224601264
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -397,6 +417,7 @@ GameObject:
   - component: {fileID: 439341754}
   - component: {fileID: 439341753}
   - component: {fileID: 439341752}
+  - component: {fileID: 439341751}
   m_Layer: 0
   m_Name: RedLarge
   m_TagString: Untagged
@@ -404,6 +425,25 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &439341751
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 439341750}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c018e9401206b374d8c4719fc4d1f4ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _targetLocation: {x: -25.2, y: -1, z: 7.525111}
+  _moveDuration: 0.6
+  _moveEase: 1
+  _targetColor: {r: 0, g: 0.2597108, b: 1, a: 0.19607843}
+  _scaleMultiplier: 14
+  _colorChangeDuration: 1
+  _doTweenType: 4
 --- !u!135 &439341752
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -488,6 +528,7 @@ GameObject:
   - component: {fileID: 629422824}
   - component: {fileID: 629422823}
   - component: {fileID: 629422822}
+  - component: {fileID: 629422821}
   m_Layer: 0
   m_Name: Orange
   m_TagString: Untagged
@@ -495,6 +536,25 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &629422821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 629422820}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c018e9401206b374d8c4719fc4d1f4ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _targetLocation: {x: 28.9, y: -1.51, z: 7.525111}
+  _moveDuration: 1
+  _moveEase: 30
+  _targetColor: {r: 0, g: 0, b: 0, a: 0}
+  _scaleMultiplier: 3
+  _colorChangeDuration: 1
+  _doTweenType: 0
 --- !u!135 &629422822
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -579,6 +639,7 @@ GameObject:
   - component: {fileID: 937891344}
   - component: {fileID: 937891343}
   - component: {fileID: 937891342}
+  - component: {fileID: 937891341}
   m_Layer: 0
   m_Name: Blue
   m_TagString: Untagged
@@ -586,6 +647,25 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &937891341
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 937891340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c018e9401206b374d8c4719fc4d1f4ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _targetLocation: {x: 15.9, y: -1.51, z: 7.525111}
+  _moveDuration: 1
+  _moveEase: 1
+  _targetColor: {r: 0, g: 0, b: 0, a: 0}
+  _scaleMultiplier: 3
+  _colorChangeDuration: 1
+  _doTweenType: 1
 --- !u!135 &937891342
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -900,6 +980,7 @@ GameObject:
   - component: {fileID: 2117463910}
   - component: {fileID: 2117463909}
   - component: {fileID: 2117463908}
+  - component: {fileID: 2117463907}
   m_Layer: 0
   m_Name: OrangeLarge
   m_TagString: Untagged
@@ -907,6 +988,25 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &2117463907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2117463906}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c018e9401206b374d8c4719fc4d1f4ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _targetLocation: {x: -11.72, y: -1.51, z: 7.525111}
+  _moveDuration: 1
+  _moveEase: 1
+  _targetColor: {r: 0.2979263, g: 0.6266999, b: 0.9716981, a: 0}
+  _scaleMultiplier: 3
+  _colorChangeDuration: 1
+  _doTweenType: 2
 --- !u!135 &2117463908
 SphereCollider:
   m_ObjectHideFlags: 0
